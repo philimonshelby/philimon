@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>PHILIMON OPPONG<br>A young motivated person with an explanatory academic record and passion to progress in this world of
+                technology. Having achieved excellent grades at the SHS, along with active involvement in clubs and societies,
+                I am keen to pursue my career as a programmer. I have studies and extra-curricular activities that would make me
+                an excellent asset to my ambition. My online tutorials and research have also provided me with the skills required
+                to develop this career.</p>
+               <h1>Summary</h1> 
+               <p>Front-end development specialist, junior web developer. Knowledge of every phase of the development
+                process for dynamic web applications. Possesses a strong command for a variety of programming languages
+                including HTML5, JavaScript, CSS, MySQL, Python, and C++. Strong customer service and project
+                management background.</p>
+            
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="/static/assets/project1.jpeg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Fashion Website</p>
+                <a href="#">View Project</a>
+            </div>
+            
+            <div class="project">
+                <img src="/static/assets/project2.jpeg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Die Game</p>
+                <a href="#">View Project</a>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you would like to get in touch with me, feel free <br>to send me an email or connect with me on social media.</p>
+            <ul>
+                <li>Email: <a href="mailto:youremail@example.com">philimon.oppong@stu.ucc.edu.gh</a></li>
+                <li>Twitter: <a href="https://twitter.com/yourtwitter"></a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourlinkedin"></a></li>
+            </ul>
+        </section>
+    </main>
+   
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<script>
+    // JavaScript code
+
+// Smooth scrolling for anchor links
+/*document.addEventListener('DOMContentLoaded', function() {
+    var anchorLinks = document.querySelectorAll('a[href^="#"]');
+    
+    for (var i = 0; i < anchorLinks.length; i++) {
+      anchorLinks[i].addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        var target = this.getAttribute('href');
+        var targetElement = document.querySelector(target);
+        
+        if (targetElement) {
+          var targetPosition = targetElement.getBoundingClientRect().top;
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    }
+  });
+  
+  // Dynamic year in the footer
+  var currentYear = new Date().getFullYear();
+  var footerYear = document.getElementById('footer-year');
+  if (footerYear) {
+    footerYear.textContent = currentYear;
+  }
+*/</script>
